@@ -1,26 +1,14 @@
-package cin_cycle;
-
-import com.example.cycle_project.R;
+package ufpe.cin_cycle;
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
-import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Adapter;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.AdapterViewAnimator;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.Spinner;
-import android.widget.TextView;
-import android.widget.Toast;
-import android.net.wifi.p2p.*;
 
 
 public class Tela_buscarWifi_vejasempre extends Activity{
